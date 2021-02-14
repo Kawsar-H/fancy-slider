@@ -46,11 +46,8 @@ const selectItem = (event, img) => {
   if (item === -1) {
     sliders.push(img);
   }
+  if(item !== -1){sliders.splice(item , 1)}
   
-  else {
-    alert('Hey, Already added !')
-    
-  }
 }
 var timer
 const createSlider = () => {
