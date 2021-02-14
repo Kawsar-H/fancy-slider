@@ -121,9 +121,9 @@ searchBtn.addEventListener('click', function () {
 })
 
 sliderBtn.addEventListener('click', function () {
-  let duration = document.getElementById('doration').value || 1000;
+  let duration = document.getElementById('doration').value || 1000
   if(duration < 1000){
-    alert("Zero And Negative Value Don't use ! Try to use Positive values");
+    alert("Negative Value Don't use ! Try to use Positive values 1000 from strt");
   }
   else{createSlider()}
   
